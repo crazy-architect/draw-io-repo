@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T06:56:29.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.1.5" etag="cP4euqgtEN1yT4j4ISPG" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T07:19:50.232Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_iVjgX3TRQSWUq8Ek0V8" version="21.1.5" type="github">
   <diagram name="Page-1" id="aQZmvvaxGpf4Tu83erWk">
-    <mxGraphModel>
+    <mxGraphModel dx="2284" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-1" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;addOWWellFromAssetInventoryToCase&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="670" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-2" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;this.mongodbService.delete&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-3" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="640" width="650" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-4" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;this.mongodbService.droptmpCollection&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-5" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;this.mongodbService.droptmpCollection&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-6" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;this.mongodbService.createtmpCollection&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-7" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;this.mongodbService.createtmpCollection&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-8" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;this.mongodbService.drop&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="490" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-9" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;this.mongodbService.insert&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-10" value="Loop wells" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="650" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-11" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;this&lt;span style=&quot;&quot;&gt;.&lt;/span&gt;getOWWellHeader&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="690" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-12" value="&lt;br&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;IF this.getOWWellTrajectory&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="780" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-14" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;this.mongodbService.insert&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="960" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-15" value="&lt;br&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;IF this.&lt;/span&gt;getOWWellPerforations&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="860" width="365" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-16" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;this.addWellTrajectoriesToFile&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1050" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-17" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;this.addWellPerforationsToFile&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1150" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-18" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&amp;nbsp;this.mongodbService.update&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1250" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-19" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;this.importWellsToNexusCase&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1440" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-20" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;this.mongodbService.droptmpCollection&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1550" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-21" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;this.mongodbService.droptmpCollection&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1640" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qg5Ax-CYWA5A_ijGNvHu-22" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;this.mongodbService.update&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1730" width="420" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
