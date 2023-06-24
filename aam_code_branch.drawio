@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-06-24T23:59:53.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="StLu5XRVACqNgjaCrn0E" version="21.5.0" type="github">
+  <diagram name="Page-1" id="naMbwpPsTle-FqYY9tQG">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4ICovp-UN2jPO3colvPC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-1" target="4ICovp-UN2jPO3colvPC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-1" value="develop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-2" value="sem-integrate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=none;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="640" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-8" target="4ICovp-UN2jPO3colvPC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-8" value="Check-in code by developers" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="550" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-9" target="4ICovp-UN2jPO3colvPC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-9" value="Build images by Jeninks pipelines" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="550" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-10" value="Deploy Jackal&amp;amp;LEO envs by DU scripts" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="550" width="110" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
