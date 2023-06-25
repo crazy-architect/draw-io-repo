@@ -1,16 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T00:15:24.282Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="JjRCIMbzpZbzIPOtX3AO" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T00:27:24.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RrQWXad3OVKoSARouJN0" version="21.5.0" type="github">
   <diagram name="Page-1" id="naMbwpPsTle-FqYY9tQG">
-    <mxGraphModel dx="2284" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4ICovp-UN2jPO3colvPC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-1" target="4ICovp-UN2jPO3colvPC-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-1" target="4ICovp-UN2jPO3colvPC-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4ICovp-UN2jPO3colvPC-1" value="develop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="40" y="370" width="770" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4ICovp-UN2jPO3colvPC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-2" target="4ICovp-UN2jPO3colvPC-1">
+        <mxCell id="4ICovp-UN2jPO3colvPC-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-2" target="4ICovp-UN2jPO3colvPC-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4ICovp-UN2jPO3colvPC-2" value="sem-integrate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=none;shadow=0;glass=0;" vertex="1" parent="1">
@@ -37,7 +40,7 @@
         <mxCell id="4ICovp-UN2jPO3colvPC-10" value="Deploy Jackal dev env by DU scripts" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="370" y="550" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4ICovp-UN2jPO3colvPC-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="4ICovp-UN2jPO3colvPC-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="40" y="260" width="770" height="100" as="geometry" />
         </mxCell>
         <mxCell id="4ICovp-UN2jPO3colvPC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-17" target="4ICovp-UN2jPO3colvPC-19">
@@ -70,11 +73,77 @@
         <mxCell id="4ICovp-UN2jPO3colvPC-27" value="Deploy LEO env by DU scripts" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="680" y="280" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4ICovp-UN2jPO3colvPC-29" value="merge branch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="840" y="490" width="60" height="30" as="geometry" />
+        <mxCell id="4ICovp-UN2jPO3colvPC-29" value="merge branch after demo &amp;amp; bootcamp ??" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="560" y="490" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ICovp-UN2jPO3colvPC-31" value="create branch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="490" width="60" height="30" as="geometry" />
+          <mxGeometry x="30" y="490" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-33" target="4ICovp-UN2jPO3colvPC-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-33" value="develop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="850" y="370" width="770" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="850" y="260" width="770" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-36" target="4ICovp-UN2jPO3colvPC-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-36" value="Check-in code by developers" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="870" y="280" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-38" target="4ICovp-UN2jPO3colvPC-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-38" value="Deploy tiger dev env by Jenkins pipeline when check-in code" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1077" y="280" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-40" target="4ICovp-UN2jPO3colvPC-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-40" value="Deploy tiger qa env by Jenkins pipeline" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1283" y="280" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-41" value="Deploy LEO env by DU scripts" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="280" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-43" target="4ICovp-UN2jPO3colvPC-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-43" value="release" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="850" y="160" width="770" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="850" y="50" width="770" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-46" target="4ICovp-UN2jPO3colvPC-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-46" value="Check-in code by developers" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="870" y="70" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-48" target="4ICovp-UN2jPO3colvPC-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-48" value="Deploy tiger dev env by Jenkins pipeline when check-in code" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1077" y="70" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ICovp-UN2jPO3colvPC-50" target="4ICovp-UN2jPO3colvPC-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-50" value="Deploy tiger qa env by Jenkins pipeline" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1283" y="70" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-51" value="Deploy LEO env by DU scripts" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="70" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-54" value="create branch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="840" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ICovp-UN2jPO3colvPC-56" value="merge branch after release" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="220" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
